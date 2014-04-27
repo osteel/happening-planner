@@ -1,0 +1,21 @@
+{
+  "name": "happening-planner",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "preinstall": "npm i -g karma-cli",
+    "postinstall": "bower install --allow-root"
+  },
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-copy": "^0.5.0",
+    "karma": "^0.12.1",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.2",
+    "grunt-karma": "^0.8.2",
+    "requirejs": "^2.1.11",
+    "karma-requirejs": "^0.2.1"
+  }
+}

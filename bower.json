@@ -1,0 +1,26 @@
+{
+  "name": "happening-planner",
+  "version": "0.0.0",
+  "main": "dist/happening-planner.min.js",
+  "ignore": [
+    "src",
+    "test",
+    "node_modules",
+    ".bowerrc",
+    ".gitignore",
+    "bower.json",
+    "Gruntfile.js",
+    "karma.config.js",
+    "package.json",
+    "README.md",
+    ".provision",
+    "Vagrantfile"
+  ],
+  "dependencies": {
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "jquery": "~2.1.0",
+    "jasmine-jquery": "~1.7.0"
+  }
+}
