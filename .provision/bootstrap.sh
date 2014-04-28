@@ -46,5 +46,7 @@ cd /var/www
 # the rest of the npm packages
 # --no-bin-links is used to prevent the creation of symlinks, which don't work
 # on shared folders between Linux and Windows
-# this will also run bower install (as a postinstall script)
-npm install --no-bin-links --unsafe-perm
+npm install --no-bin-links
+
+# bower packages
+bower install --allow-root

@@ -2,10 +2,6 @@
   "name": "happening-planner",
   "private": true,
   "version": "0.0.0",
-  "scripts": {
-    "preinstall": "npm i -g karma-cli",
-    "postinstall": "bower install --allow-root"
-  },
   "devDependencies": {
     "grunt": "*",
     "grunt-contrib-uglify": "^0.4.0",
