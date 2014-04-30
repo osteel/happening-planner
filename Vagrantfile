@@ -12,6 +12,9 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Take the box from there if not added already
   config.vm.box_url = "http://files.vagrantup.com/precise32.box"
 
+  # Accessing "localhost:8080" will access port 8080 on the guest machine.
+  config.vm.network :forwarded_port, guest: 8080, host: 8080
+
   # Accessing "localhost:9876" will access port 9876 on the guest machine.
   config.vm.network :forwarded_port, guest: 9876, host: 9876
 

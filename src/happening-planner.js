@@ -1,5 +1,5 @@
 ; (function (define) {
-  define('happening-planner', function () {
+  define('happeningPlanner', function () {
     return (function () {
       
       function plan(eventList, selectedIds) {
@@ -13,11 +13,8 @@
           unorderedList.push(event);
         });
         
-        var orderedList = _.map(
-          _.sortBy(unorderedList, ['start_date', 'name']),
-          _.values
-        );
-        
+        var orderedList = _.sortBy(unorderedList, ['start_date', 'name']);
+
         // - go through the orderedList array and, for each element:
         //     - push it in the planning array following this format:
         //       {
@@ -48,7 +45,8 @@
           
           while (true) {
             nextEvent = orderedList[index + incr];
-            level     = conflictLevel(event, nextEvent);
+            if (typeof nextEvent === "undefined") { break; }
+            level = conflictLevel(event, nextEvent);
             
             if (level === 0) { break; }
             

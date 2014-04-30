@@ -24,28 +24,28 @@
       "id": 4,
       "name": "September Girls",
       "start_date": "2014-05-09 15:45:00",
-      "end_date": "2014-05-09 16:15:00",
+      "end_date": "2014-05-09 17:00:00",
       "location": "Audio"
   },
   {
       "id": 5,
       "name": "Nico Vega",
-      "start_date": "2014-05-09 16:00:00",
-      "end_date": "2014-05-09 16:45:00",
+      "start_date": "2014-05-09 16:45:00",
+      "end_date": "2014-05-09 18:00:00",
       "location": "Blind Tiger"
   },
   {
       "id": 6,
       "name": "Samaris",
-      "start_date": "2014-05-09 18:00:00",
-      "end_date": "2014-05-09 19:00:00",
+      "start_date": "2014-05-09 16:45:00",
+      "end_date": "2014-05-09 17:45:00",
       "location": "Blind Tiger"
   },
   {
       "id": 7,
       "name": "Thomas Azier",
       "start_date": "2014-05-10 17:45:00",
-      "end_date": "2014-05-10 18:30:00",
+      "end_date": "2014-05-10 18:15:00",
       "location": "Green Door Store"
   },
   {
