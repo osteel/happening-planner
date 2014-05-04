@@ -10,7 +10,7 @@
     ".gitignore",
     "bower.json",
     "Gruntfile.js",
-    "karma.config.js",
+    "karma.conf.js",
     "package.json",
     "README.md",
     ".provision",
