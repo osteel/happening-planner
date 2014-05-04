@@ -1,5 +1,7 @@
 # Happening Planner
 
+0.0.1
+
 Work in progress...
 
 To do:
