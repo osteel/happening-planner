@@ -1,11 +1,19 @@
 # Happening Planner
 
-0.0.1
+## Version
+
+0.0.2
 
 Work in progress...
 
-To do:
+## Install
 
- - proper unit tests
- - add a default config and the possibility to pass a custom config
- - use MomentJS to deal with actual dates and not with strings
+    bower install happening-planner
+
+or download files under dist/
+
+## To-do
+
+- proper unit tests
+- add a default config and the possibility to pass a custom config
+- use MomentJS to deal with actual dates and not with strings

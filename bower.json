@@ -1,6 +1,6 @@
 {
   "name": "happening-planner",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/happening-planner.min.js",
   "ignore": [
     "src",
